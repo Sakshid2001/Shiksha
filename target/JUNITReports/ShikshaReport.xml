@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="17.905" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="Q&amp;A section for shiksha.com" name="Mark the notification as read by clicking on mark as read" time="17.684">
+<failure type="java.lang.AssertionError" message="Test failed: Notification was not marked as read after clicking 'mark as read'.">
+<![CDATA[java.lang.AssertionError: Test failed: Notification was not marked as read after clicking 'mark as read'.
+	at StepDefinition.ShikshaSteps.the_notification_should_be_marked_as_read(ShikshaSteps.java:322)
+	at ✽.the notification should be marked as read.(file:///C:/Users/SAMITDES/Desktop/sprint2/Query/src/test/resource/Features/Shiksha.feature:66)
+]]>
+</failure>
+<system-out><![CDATA[
+Given I am on the shiksha homepage..........................................passed
+When I click on notification bell option....................................passed
+And I click on mark as read.................................................passed
+Then the notification should be marked as read..............................failed
+]]></system-out>
+</testcase>
+</testsuite>
